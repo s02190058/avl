@@ -1,6 +1,6 @@
 # Generic performance in Go
 
-I was interested to see how to implement generalized types in Go 2.18.
+I was interested to see how to implement generalized types in Go 1.18.
 I also wanted to compare their performance with the implementation for specific types.
 So I wrote a simple AVl tree (generic, `int` and `string` version)
 and a benchmark that adds elements to an empty tree and then cleans it completely.
